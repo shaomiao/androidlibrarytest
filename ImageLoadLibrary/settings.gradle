@@ -1,1 +1,1 @@
-include ':app', ':image_load_library'
+include ':app', ':image_load_library', ':image_load_strategy_library'
