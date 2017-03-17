@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 new ShareAction(MainActivity.this).withText("hello")
-                        .setDisplayList(SHARE_MEDIA.QQ)
+                        .setDisplayList(SHARE_MEDIA.QQ,SHARE_MEDIA.SINA,SHARE_MEDIA.WEIXIN)
                         .setCallback(umShareListener).open();
             }
         });
