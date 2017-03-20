@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PermissionsLibrary.iml" filepath="$PROJECT_DIR$/PermissionsLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_permissions_library/android_permissions_library.iml" filepath="$PROJECT_DIR$/android_permissions_library/android_permissions_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
