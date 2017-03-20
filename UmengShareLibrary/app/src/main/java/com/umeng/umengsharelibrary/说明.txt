@@ -1,0 +1,11 @@
+如果有自己的微信分享需要更改包名
+首先要在application中初始化配置信息
+例如:
+    PlatformConfig.setWeixin("wx967daebe835fbeac", "5bb696d9ccd75a38c8a0bfe0675559b3");
+    PlatformConfig.setQQZone("100424468", "c7394704798a158208a74ab60104f0ba");
+    PlatformConfig.setSinaWeibo("3921700954", "04b48b094faeb16683c32669824ebdad", "http://sns.whalecloud.com");
+然后在application中onCreate初始化友盟
+    // 初始化友盟分享
+    UMShareAPI.get(this);
+
+
